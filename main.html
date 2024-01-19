@@ -6,9 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        table{
+            border: 1px solid black;
+        }
+
+        th{
+            background-color: rgb(34, 117, 212);
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        tr:nth-child(even) {
+            background-color: #db48af;
+            text-align: center;   
+        }
+        tr,th,td{
+            padding: 8px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            
+        }
+    </style>
 </head>
 <body>
     <!-- add table here -->
+    <table>
+	<thead>
+		<tr>
+			<th>NAME</th>
+			<th>KILLS</th>
+			<th>SAVED</th>
+			<th>DEATHS</th>
+			<th>REVIVES</th>
+			<th>WIN</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Hackerman</td>
+			<td>10</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		
+		<tr>
+			<td>ARJUN CHAND</td>
+			<td>40</td>
+			<td>15</td>
+			<td>0</td>
+			<td>0</td>
+			<td>10</td>
+		</tr>
+        <tr>
+			<td>ARUN</td>
+			<td>20</td>
+			<td>15</td>
+			<td>0</td>
+			<td>0</td>
+			<td>10</td>
+		</tr>
+	</tbody>
+</table>
 
         
 </body>
